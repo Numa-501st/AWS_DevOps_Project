@@ -1,0 +1,35 @@
+<settings>
+    
+    <servers>
+  <server>
+    <id>numa501st-numa501st-packages</id>
+    <username>aws</username>
+    <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
+  </server>
+</servers>
+    
+    <profiles>
+  <profile>
+    <id>numa501st-numa501st-packages</id>
+    <activation>
+      <activeByDefault>true</activeByDefault>
+    </activation>
+    <repositories>
+      <repository>
+        <id>numa501st-numa501st-packages</id>
+        <url>https://numa501st-211125738014.d.codeartifact.us-east-1.amazonaws.com/maven/numa501st-packages/</url>
+      </repository>
+    </repositories>
+  </profile>
+</profiles>
+
+    <mirrors>
+  <mirror>
+    <id>numa501st-numa501st-packages</id>
+    <name>numa501st-numa501st-packages</name>
+    <url>https://numa501st-211125738014.d.codeartifact.us-east-1.amazonaws.com/maven/numa501st-packages/</url>
+    <mirrorOf>*</mirrorOf>
+  </mirror>
+</mirrors>
+    
+</settings>
