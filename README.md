@@ -60,7 +60,7 @@ This is a simple web application utilising AWS DevOps tools.
 **4) Create S3 Bucket to catch Build Artifact that gets created from build process with CodeBuild. It is stored there as a WAR (zip) file. Create CodeBuild Project and configure buildspec.yml to define the build commands and settings for building the application.**
 <div align="center">
   <img src="images/4_2codebuild1.png" width="40%">
-  <img src="images/4_3buidlspecyml" width="40%">
+  <img src="images/4_3buidlspecyml.png" width="40%">
 </div>
 
 <div align="center">
@@ -81,8 +81,8 @@ This is a simple web application utilising AWS DevOps tools.
 
 **6) Implement CodePipeline to establish a CI/CD pipeline so you can automate execution of the above steps: Source, Build and Deploy.**
 <div align="center">
-  <img src="images/6_CodePipelinesuccessful.png" width="45%">
-  <img src="images/6_hostedwebapponeEC2.png" width="45%">
+  <img src="images/6_CodePipelinesuccessful.png" width="60%">
+  <img src="images/6_hostedwebapponeEC2.png" width="60%">
 </div>
 
 <br><br>
